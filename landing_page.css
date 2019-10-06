@@ -45,9 +45,272 @@ table {
 
 /* Style */
 
-.wrapper    {
-    width: 1024px;
-    overflow: hidden;
-    background-color: antiquewhite;
+body {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.wrapper    {
+	width: 1850px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #323232;
+	color: white;
+}
+/* Header OPEN */
+.header {
+	height: 100px;
+	background-color: #2d4059;
+	color: white;
+	overflow: hidden;
+	clear: both;
+	
+}
+
+.header img {
+	width: 151px;
+	float: left;
+	margin-top: 30px;
+	padding-left: 140px;
+}
+
+.header ul li a {
+	font-weight: bold;
+	float: right;
+	margin-top: 40px;
+	margin-right: 10%;
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	
+}
+
+.header a:hover {
+	transition: 0.3s;
+	padding: 10px;
+	background-color: #f07b3f;
+	border-radius: 2px;
+	
+}
+
+.create_account a {
+	font-weight: bold;
+	float: right;
+	margin-top: 40px;
+	margin-right: 5%;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	
+}
+
+.login a {
+	font-weight: bold;
+	float: right;
+	margin-top: 40px;
+	margin-right: 5%;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+} 
+
+input {
+	float: right;
+	margin-top: 40px;
+	margin-right: 5%;
+}
+
+/* Header Closed */
+
+/* Daftar Artikel Open */
+
+.daftar_artikel	{
+	width: 925px;
+	margin: 0 auto;
+	/* background-color: #ffffff; */
+	
+
+	
+}
+
+.head_artikel {
+	text-align: center;
+	padding-top: 100px;
+	padding: 100px;
+
+}
+
+.head_artikel h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.head_artikel h3 {
+	font-size: 19px;
+	margin-top: 30px;
+}
+
+/* Artikel */
+
+.artikel {
+	overflow: hidden;
+	text-align: center;
+	letter-spacing: 1px;
+	
+}
+
+.artikel b  {
+	font-weight: bold;
+	font-size: 15px;
+	
+}
+
+.artikel  p {
+	font-size: 15px;
+}
+
+/* anticheat */
+
+.anticheat	{
+	/* background-color: rgb(145, 255, 163); */
+	width: 200px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.artikel .anticheat img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding: 10px 50px 10px 60px;
+}
+
+/* match making */
+
+.matchmaking {
+	/* background-color: rgb(175, 169, 255); */
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.artikel .matchmaking img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding: 10px 50px 10px 60px;
+}
+
+/* Torunaments */
+
+.tournaments  {
+	/* background-color: rgb(255, 169, 226); */
+	width: 200px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.tournaments img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding: 10px 50px 10px 60px;
+}
+
+/* artikel control */
+
+.anticheat  {
+	margin-left: 12%;
+	margin-right: 10px;
+}
+
+.matchmaking {
+	margin-right: 10px;
+}
+
+/* foto penutup */
+
+.foto_penutup {
+
+	/* background-color: #ececec; */
+	padding-top: 100px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+
+/* csgo */
+.csgo {
+	/* background-color: aliceblue; */
+	width: 300px;
+	height: 400px;
+	float: left;
+	overflow: hidden;	
+}
+
+.csgo img {
+	width: 720px;
+	height: 450px;
+	background-size: cover;
+	margin-left: -290px;
+	float: left;
+}
+/* dota */
+.dota {
+	background-color: rgb(14, 240, 248);
+	width: 300px;
+	height: 400px;
+	float: left;
+	overflow: hidden;
+	margin-left: 12px;
+}
+
+.dota img {
+	width: 300px;
+	height: 600px;
+	margin-top: -100px;
+	background-size: cover;
+	float: left;
+}
+
+/* PUBG */
+.pubg {
+	background-color: rgb(174, 14, 248);
+	width: 300px;
+	height: 400px;
+	float: right;
+	overflow: hidden;
+}
+
+.pubg img {
+	background-position: cover;
+	margin-top: -120px;
+	margin-left: -60px;
+
+}
+.leftbar	{
+	margin-top: 25%;
+	width: 25%;
+	float: left;
+	background-color: #f07b3f;
+}
+
+.rightbar	{
+	width: 25%;
+	float: right;
+	background-color: #f07b3f;
+}
+
+.footer {
+	clear: both;
+	background-color: #2d4059;
+	height: 100px;
+	
+}
