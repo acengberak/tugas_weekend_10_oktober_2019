@@ -51,7 +51,7 @@ body {
 
 
 .wrapper    {
-	width: 1850px;
+	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 	background-color: #323232;
@@ -64,6 +64,7 @@ body {
 	color: white;
 	overflow: hidden;
 	clear: both;
+	border-bottom: 3px solid #f07b3f;
 	
 }
 
@@ -88,7 +89,7 @@ body {
 .header a:hover {
 	transition: 0.3s;
 	padding: 10px;
-	background-color: #f07b3f;
+	background-color: #2d4059;
 	border-radius: 2px;
 	
 }
@@ -114,18 +115,13 @@ body {
 	font-size: 15px;
 } 
 
-input {
-	float: right;
-	margin-top: 40px;
-	margin-right: 5%;
-}
 
 /* Header Closed */
 
 /* Daftar Artikel Open */
 
 .daftar_artikel	{
-	width: 925px;
+	width: 50%;
 	margin: 0 auto;
 	/* background-color: #ffffff; */
 	
@@ -141,7 +137,7 @@ input {
 }
 
 .head_artikel h1 {
-	font-size: 30px;
+	font-size: 38px;
 	font-weight: bold;
 }
 
@@ -293,24 +289,108 @@ input {
 	background-position: cover;
 	margin-top: -120px;
 	margin-left: -60px;
-
 }
+
+/* Left Bar */
 .leftbar	{
 	margin-top: 25%;
 	width: 25%;
 	float: left;
-	background-color: #f07b3f;
+	background-color: #2d4059;
+	border-radius: 0 3px 3px 0  ;
 }
+
+.leftbar b li a {
+	display: block;
+	padding-left: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 5px;
+	
+}
+
+.leftbar a:hover {
+	background-color: #f07b3f;
+	font-size: 13px;
+	transition: 0.3s;
+	border-top: 3px solid #2d4059;
+	border-bottom: 3px solid #2d4059;
+}
+
+/* Right Bar */
 
 .rightbar	{
 	width: 25%;
+	margin-top: 15%;
 	float: right;
-	background-color: #f07b3f;
+	background-color: #2d4059;
+	border-radius: 0 3px 3px 0 ;
 }
+
+.rightbar b li a {
+	display: block;
+	padding-left: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 5px;
+	
+}
+
+.rightbar a:hover {
+	background-color: #f07b3f;
+	font-size: 13px;
+	transition: 0.3s;
+	border-top: 3px solid #2d4059;
+	border-bottom: 3px solid #2d4059;
+}
+
+/* FOOTER */
 
 .footer {
 	clear: both;
 	background-color: #2d4059;
 	height: 100px;
+	border-top: 3px solid #f07b3f;
+}
+
+.footer img {
+	display: block;
+	margin: 0 auto;
+	width: 151px;
+	padding-top: 25px;
+}
+
+.footer p {
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 9px;
+	font-size: 9px;
+}
+
+.header form {
+	float: right;
+	margin-top: 37px;
+	margin-right: 50px;
 	
 }
+
+.header form input {
+   border: none;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.header:hover {
+	background-color: #f07b3f;
+	transition: 1s;
+}
+
+.footer:hover {
+	background-color: #f07b3f;
+	transition: 1s;
+}
+
