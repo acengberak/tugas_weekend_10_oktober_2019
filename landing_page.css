@@ -121,7 +121,7 @@ body {
 /* Daftar Artikel Open */
 
 .daftar_artikel	{
-	width: 50%;
+	width: 65%;
 	margin: 0 auto;
 	/* background-color: #ffffff; */
 	
@@ -230,6 +230,7 @@ body {
 
 .matchmaking {
 	margin-right: 10px;
+	margin-left: 15px;
 }
 
 /* foto penutup */
@@ -248,7 +249,8 @@ body {
 	width: 300px;
 	height: 400px;
 	float: left;
-	overflow: hidden;	
+	overflow: hidden;
+	margin-right: 30px;	
 }
 
 .csgo img {
@@ -265,7 +267,7 @@ body {
 	height: 400px;
 	float: left;
 	overflow: hidden;
-	margin-left: 12px;
+	margin-left: 13px;
 }
 
 .dota img {
@@ -283,6 +285,7 @@ body {
 	height: 400px;
 	float: right;
 	overflow: hidden;
+	margin 
 }
 
 .pubg img {
@@ -294,7 +297,7 @@ body {
 /* Left Bar */
 .leftbar	{
 	margin-top: 25%;
-	width: 25%;
+	width: 15%;
 	float: left;
 	background-color: #2d4059;
 	border-radius: 0 3px 3px 0  ;
@@ -302,7 +305,7 @@ body {
 
 .leftbar b li a {
 	display: block;
-	padding-left: 50px;
+	padding-left: 30px;
 	line-height: 50px;
 	text-decoration: none;
 	color: white;
@@ -322,7 +325,7 @@ body {
 /* Right Bar */
 
 .rightbar	{
-	width: 25%;
+	width: 15%;
 	margin-top: 15%;
 	float: right;
 	background-color: #2d4059;
@@ -331,7 +334,7 @@ body {
 
 .rightbar b li a {
 	display: block;
-	padding-left: 50px;
+	padding-left: 30px;
 	line-height: 50px;
 	text-decoration: none;
 	color: white;
